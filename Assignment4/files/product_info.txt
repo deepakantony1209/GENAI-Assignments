@@ -1,0 +1,3 @@
+Product Name | Price
+a | 100.0
+b | 200.0
