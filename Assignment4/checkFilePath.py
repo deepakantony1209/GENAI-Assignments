@@ -14,6 +14,4 @@ else:
     if file_name in current_files:
         print(f"The file '{file_name}' exists in the current directory.")
     else:
-        print(f"The file '{file_name}' does not exist.")
-        print(f"Current directory: {os.getcwd()}")
-        print(f"Files in current directory: {current_files[:5]}...")  # Show first 5 files
+        print(f"The file isn't found in the current directory.")
